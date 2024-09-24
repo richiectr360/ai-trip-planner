@@ -1,0 +1,67 @@
+RUN project
+
+npm install
+npm run dev 
+
+__________________
+
+- npm create vite@latest
+
+ai-travel-planner
+React 
+Javascript
+
+# shadc/ choose vite
+
+- npm create vite@latest 
+- npm install -D tailwindcss postcss autoprefixer
+- npx tailwindcss init -p
+
+# tsconfig.json
+Add content to this file.
+
+#update vite.config.ts with the content 
+- npm i -D @types/node 
+
+- npx shadcn-ui@latest init 
+no TS 
+style - default 
+base color - neutral 
+global css - src/index.css 
+CSS variables - Yes
+custom tailwind prefix - Enter
+tailwind.config.js location - Emter
+components - Enter
+utils - Enter 
+react server components - No 
+config to json - Yes 
+
+
+
+- npx shadcn-ui@latest add button 
+
+__________________
+React-router 
+
+npm create vite@latest name-of-your-project -- --template react
+# follow prompts
+cd <your new project directory>
+npm install react-router-dom # always need this!
+npm install localforage match-sorter sort-by # only for this tutorial.
+npm run dev
+
+
+npm install --save react-google-places-autocomplete
+or
+yarn add react-google-places-autocomplete
+
+
+__________________
+npm install @google/generative-ai
+
+npm install @react-oauth/google@latest
+
+npm install firebase
+
+npm i axios
+
