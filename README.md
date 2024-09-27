@@ -2,7 +2,7 @@
 
 **Live Demo**: [https://ai-trip-planner-jade.vercel.app/](https://ai-trip-planner-jade.vercel.app/)
 
-The **AI Travel Planner** is an intelligent web application that helps users plan and organize trips seamlessly with AI-driven recommendations. The app integrates several powerful technologies, including Google Geolocation API, Google Maps API, and OpenAI's API, to provide a rich, personalized experience for users. Whether it's selecting the best hotels, discovering places to visit, or planning activities, this app ensures efficient travel planning based on real-time data and user preferences.
+The **AI Travel Planner** is an intelligent web application that helps users plan and organize trips seamlessly with AI-driven recommendations. The app integrates several powerful technologies, including Google Geolocation API, Google Maps API, and Vertex AI API, to provide a rich, personalized experience for users. Whether it's selecting the best hotels, discovering places to visit, or planning activities, this app ensures efficient travel planning based on real-time data and user preferences.
 
 ## Problem the Project Solves
 
@@ -110,7 +110,7 @@ Before you begin, ensure you have the following installed:
    REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
    REACT_APP_FIREBASE_APP_ID=your-app-id
    REACT_APP_FIREBASE_MEASUREMENT_ID=your-measurement-id
-   REACT_APP_OPENAI_API_KEY=your-openai-api-key
+   REACT_APP_VertexAI_API_KEY=your-vertexai-api-key
    ```
 
 4. Start the development server:
@@ -134,7 +134,7 @@ Make sure to set up your Firebase credentials and other API keys as environment 
 - `REACT_APP_FIREBASE_MESSAGING_SENDER_ID`
 - `REACT_APP_FIREBASE_APP_ID`
 - `REACT_APP_FIREBASE_MEASUREMENT_ID`
-- `REACT_APP_OPENAI_API_KEY` (Add this if you're using OpenAI)
+- `REACT_APP_VERTEXAI_API_KEY`
 
 ## Scripts
 
